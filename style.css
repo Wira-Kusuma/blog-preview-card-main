@@ -32,6 +32,7 @@ main {
 main>img {
     width: 16rem;
     border-radius: 10px;
+    user-select: none;
 }
 
 .status {
