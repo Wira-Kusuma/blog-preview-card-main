@@ -16,9 +16,11 @@
     font-family: 'Figtree';
     box-sizing: border-box;
 }
-
+  
 :root {
-    --background:#ecc030;
+    --background:hsl(47, 88%, 63%)
+
+;
 }
 body {
     background-color: var(--background);
@@ -35,7 +37,7 @@ main {
     width: 18rem;
     margin: 5rem auto;
     border: 1px solid;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -53,7 +55,7 @@ main>img {
     border-radius: 5px;
     padding: 5px 10px;
     width: fit-content;
-    font-weight: bold;
+    font-weight: 1000;
     font-size: 0.8rem;
     background-color: var(--background);
 }
@@ -73,7 +75,7 @@ h1:hover {
 }
 
 .desc {
-    color: rgba(0, 0, 0, 0.5);
+    color: hsl(0, 0%, 42%);
     font-size: 0.9rem;
 }
 
@@ -86,7 +88,7 @@ section > section {
 
 .name {
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 section img {
