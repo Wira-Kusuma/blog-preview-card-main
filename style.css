@@ -3,8 +3,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background:#ecc02d;
+}
 body {
-    background-color: #ecc02d;
+    background-color: var(--background);
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -37,7 +40,7 @@ main>img {
     width: fit-content;
     font-weight: bold;
     font-size: 0.8rem;
-    background-color: #ecc02d;
+    background-color: var(--background);
 }
 
 .date {
