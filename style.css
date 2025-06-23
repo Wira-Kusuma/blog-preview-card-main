@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* karena ini variable font */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Figtree';
     box-sizing: border-box;
 }
 
