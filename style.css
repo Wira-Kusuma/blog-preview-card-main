@@ -4,7 +4,7 @@
 }
 
 :root {
-    --background:#ecc02d;
+    --background:#ecc030;
 }
 body {
     background-color: var(--background);
@@ -49,6 +49,12 @@ main>img {
 
 h1 {
     font-size: 1.3rem;
+    transition: ease-in-out all 0.2s;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: var(--background);
 }
 
 .desc {
