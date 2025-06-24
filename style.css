@@ -15,6 +15,7 @@
 * {
     font-family: 'Figtree';
     box-sizing: border-box;
+    transition: ease-in-out 0.3s all;
 }
   
 :root {
@@ -49,6 +50,12 @@ main>img {
     width: 16rem;
     border-radius: 10px;
     user-select: none;
+    transition: ease-in-out 0.3s all;
+}
+
+main>img:hover, .status:hover {
+    transform:translateY(-5px) translateX(5px);
+    box-shadow: -5px 10px 10px 0.5px rgba(0, 0, 0, 0.3);
 }
 
 .status {
@@ -94,6 +101,7 @@ section > section {
 section img {
     width: 2.5rem;
     height: 2.5rem;
+    user-select: none;
 }
 
 .attribution { 
