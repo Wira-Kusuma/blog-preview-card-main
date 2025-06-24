@@ -54,8 +54,8 @@ main>img {
 }
 
 main>img:hover, .status:hover {
-    transform:translateY(-5px) translateX(5px);
-    box-shadow: -5px 10px 10px 0.5px rgba(0, 0, 0, 0.3);
+    transform:translateY(-5px) translateX(-5px);
+    box-shadow: 5px 10px 10px 0.5px rgba(0, 0, 0, 0.3);
 }
 
 .status {
